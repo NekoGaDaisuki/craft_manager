@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<alchemy>
+	<solvents>
+		<lowLevel>
+			<solvent>
+				<name>Eau Naturelle</name>
+				<level>3</level>
+			</solvent>
+			<solvent>
+				<name>Eau Claire</name>
+				<level>10</level>
+			</solvent>
+			<solvent>
+				<name>Eau Limpide</name>
+				<level>20</level>
+			</solvent>
+			<solvent>
+				<name>Eau Assainie</name>
+				<level>30</level>
+			</solvent>
+			<solvent>
+				<name>Eau Filtrée</name>
+				<level>40</level>
+			</solvent>
+		</lowLevel>
+		<highLevel>
+			<solvent>
+				<name>Eau Purifiée</name>
+				<level>10</level>
+			</solvent>
+			<solvent>
+				<name>Brume</name>
+				<level>50</level>
+			</solvent>
+			<solvent>
+				<name>Rosée Stellaire</name>
+				<level>100</level>
+			</solvent>
+			<solvent>
+				<name>Larmes de Lorkhan</name>
+				<level>150</level>
+			</solvent>
+		</highLevel>
+	</solvents>
+	<oils>
+		<lowLevel>
+			<oil>
+				<name>Graisse</name>
+				<level>3</level>
+			</oil>
+			<oil>
+				<name>Sanie</name>
+				<level>10</level>
+			</oil>
+			<oil>
+				<name>Fluide Visqueux</name>
+				<level>20</level>
+			</oil>
+			<oil>
+				<name>Bile</name>
+				<level>30</level>
+			</oil>
+			<oil>
+				<name>Térébenthine</name>
+				<level>40</level>
+			</oil>
+		</lowLevel>
+		<highLevel>
+			<oil>
+				<name>Bile-Poix</name>
+				<level>10</level>
+			</oil>
+			<oil>
+				<name>Goudron</name>
+				<level>50</level>
+			</oil>
+			<oil>
+				<name>Nocthuile</name>
+				<level>100</level>
+			</oil>
+			<oil>
+				<name>Alcaleste</name>
+				<level>150</level>
+			</oil>
+		</highLevel>
+	</oils>
+	<reagents>
+		<botanist>
+			<reagent>
+				<name>Absinthe</name>
+			</reagent>
+			<reagent>
+				<name>Ancolie</name>
+			</reagent>
+			<reagent>
+				<name>Bleuet</name>
+			</reagent>
+			<reagent>
+				<name>Cardamine des prés</name>
+			</reagent>
+			<reagent>
+				<name>Chapeau blanc</name>
+			</reagent>
+			<reagent>
+				<name>Chardon béni</name>
+			</reagent>
+			<reagent>
+				<name>Coprin violet</name>
+			</reagent>
+			<reagent>
+				<name>Entoloma</name>
+			</reagent>
+			<reagent>
+				<name>Épine-de-dragon</name>
+			</reagent>
+			<reagent>
+				<name>Jacinthe d'eau</name>
+			</reagent>
+			<reagent>
+				<name>Lys des cimes</name>
+			</reagent>
+			<reagent>
+				<name>Mutinus elegans</name>
+			</reagent>
+			<reagent>
+				<name>Nirnrave</name>
+			</reagent>
+			<reagent>
+				<name>Noctuelle</name>
+			</reagent>
+			<reagent>
+				<name>Pied-de-lutin</name>
+			</reagent>
+			<reagent>
+				<name>Russule émétique</name>
+			</reagent>
+			<reagent>
+				<name>Russule phosphorescente</name>
+			</reagent>
+			<reagent>
+				<name>Truffe de Namira</name>
+			</reagent>
+		</botanist>
+		<toxicologist>
+			<reagent>
+				<name>Aile de papillon</name>
+			</reagent>
+			<reagent>
+				<name>Belladone</name>
+			</reagent>
+			<reagent>
+				<name>Chitine de vasard</name>
+			</reagent>
+			<reagent>
+				<name>Cloaque de scarabée</name>
+			</reagent>
+			<reagent>
+				<name>Gelée de scrib</name>
+			</reagent>
+			<reagent>
+				<name>Larve de mouche à viande</name>
+			</reagent>
+			<reagent>
+				<name>Oeuf d'araignée</name>
+			</reagent>
+			<reagent>
+				<name>Thorax de flamouche</name>
+			</reagent>
+		</toxicologist>
+	</reagents>
+</alchemy>
