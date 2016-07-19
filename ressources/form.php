@@ -3,7 +3,7 @@
 	<head>
 		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 		<title>Formulaire de demande de craft</title>
-		<link rel="stylesheet" href="css/main.css" />
+		<link rel="stylesheet" href="css/style.css" />
 		<script src="js/jquery.js"></script>
 		<script src="js/plugin.js"></script>
 	</head>
