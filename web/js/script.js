@@ -1,4 +1,5 @@
-$(document).ready(function () {
+function setup_form()
+{
     var root = $('#craft_form');
     var last = $('#submit_field');
 
@@ -121,4 +122,4 @@ $(document).ready(function () {
         clone.attr('id', 'drink_div'.concat(brewery_count));
         clone.insertBefore('#brewery_div_node #brewery_fieldset #brewery_button_div');
     });
-});
+}

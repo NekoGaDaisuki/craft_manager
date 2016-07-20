@@ -7,16 +7,20 @@
         <meta name="author" content="Alexis" />
         <link href="css/style.css" rel="stylesheet" type="text/css" />
         <link href="css/layout.css" rel="stylesheet" type="text/css" />
-
         <script type="text/javascript" src="js/jquery.js"></script>
-    <!--    <script type="text/javascript" src="js/script.js"></script> -->
-
+        <script type="text/javascript" src="js/script.js"></script>
     </head>
     <body id="page">
         <div class="tail-top-right"></div>
         <div id="main">
             <!-- header -->
-            <div id="header"></div>
+            <div id="header">
+                <p><a href="<?php echo Plugin::createLink('home'); ?>">Accueil</a></p>
+                <p><a href="<?php echo Plugin::createLink('view'); ?>">Consulter les commandes adressées aux Artisans de la Guilde</a></p>
+                <p><a href="<?php echo Plugin::createLink('details'); ?>">Consulter les informations relatives aux Artisans de l'Orbe du Temps</a></p>
+                <p><a href="<?php echo Plugin::createLink('form'); ?>">Effectuer une commande auprès des Artisans de l'Orbe du Temps</a></p>
+                <p><a href="<?php echo Plugin::createLink('manage'); ?>">(Artisans uniquement) Gérer les commandes en cours ou achevées</a></p>
+            </div>
             <!-- content -->
             <div id="content">
                 <div class="wrapper">

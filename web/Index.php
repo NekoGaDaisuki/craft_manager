@@ -1,6 +1,8 @@
 <?php
+
 final class Index
 {
+
     const DEFAULT_PAGE = 'home';
     const RESSOURCES_DIR = '../ressources/';
     const LAYOUT_DIR = '../layout/';
@@ -19,7 +21,7 @@ final class Index
 
     public function handleException(Exception $except)
     {
-        if ($except instanceof  NotFoundException)
+        if ($except instanceof NotFoundException)
         {
             header('HTTP/1.0 404 Not Found');
             $this->runPage('404');
@@ -34,6 +36,7 @@ final class Index
     {
         $ressources = array(
             'NotFoundException' => '../exception/NotFoundException.php',
+            'Plugin' => '../plugin/Plugin.php',
         );
         if (!array_key_exists($label, $ressources))
         { die('Class "' . $label . '" not found.'); }
@@ -43,8 +46,10 @@ final class Index
     private function getPage()
     {
         $label = self::DEFAULT_PAGE;
-        if (array_key_exists('page', $_GET))
-        { $label = $_GET['page']; }
+        if (array_key_exists('label', $_GET))
+        {
+            $label = $_GET['label'];
+        }
         return $this->checkPage($label);
     }
 
@@ -86,6 +91,7 @@ final class Index
 
     private function hasTemplate($label)
     { return file_exists($this->getTemplate($label)); }
+
 }
 
 $index = new Index();
