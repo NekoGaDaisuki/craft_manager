@@ -1,206 +1,352 @@
 <?xml version="1.0" encoding="utf-8"?>
 <equipment>
-	<weapons>
-		<blacksmithing>
-			<weapon>
-				<name>Hache</name>
-			</weapon>
-			<weapon>
-				<name>Masse</name>
-			</weapon>
-			<weapon>
-				<name>Épée</name>
-			</weapon>
-			<weapon>
-				<name>Hache de bataille</name>
-			</weapon>
-			<weapon>
-				<name>Masse d'arme</name>
-			</weapon>
-			<weapon>
-				<name>Épée longue</name>
-			</weapon>
-			<weapon>
-				<name>Dague</name>
-			</weapon>
-		</blacksmithing>
-		<woodworking>
-			<weapon>
-				<name>Arc</name>
-			</weapon>
-			<weapon>
-				<name>Bâton infernal</name>
-			</weapon>
-			<weapon>
-				<name>Bâton de glace</name>
-			</weapon>
-			<weapon>
-				<name>Bâton de foudre</name>
-			</weapon>
-			<weapon>
-				<name>Bâton de rétablissement</name>
-			</weapon>
-		</woodworking>
-	</weapons>
-	<armors>
-		<tailoring>
-			<light>
-				<armor>
-					<name>Robe</name>
-				</armor>
-				<armor>
-					<name>Pourpoint</name>
-				</armor>
-				<armor>
-					<name>Chaussures</name>
-				</armor>
-				<armor>
-					<name>Gants</name>
-				</armor>
-				<armor>
-					<name>Chapeau</name>
-				</armor>
-				<armor>
-					<name>Braies</name>
-				</armor>
-				<armor>
-					<name>Épaulettes</name>
-				</armor>
-				<armor>
-					<name>Baudrier</name>
-				</armor>
-			</light>
-			<medium>
-				<armor>
-					<name>Gilet</name>
-				</armor>
-				<armor>
-					<name>Bottes</name>
-				</armor>
-				<armor>
-					<name>Brassards</name>
-				</armor>
-				<armor>
-					<name>Casque</name>
-				</armor>
-				<armor>
-					<name>Gardes</name>
-				</armor>
-				<armor>
-					<name>Coques d'épaules</name>
-				</armor>
-				<armor>
-					<name>Ceinture</name>
-				</armor>
-			</medium>
-		</tailoring>
-		<blacksmithing>
-			<heavy>
-				<armor>
-					<name>Cuirasse</name>
-				</armor>
-				<armor>
-					<name>Solerets</name>
-				</armor>
-				<armor>
-					<name>Gantelets</name>
-				</armor>
-				<armor>
-					<name>Heaume</name>
-				</armor>
-				<armor>
-					<name>Grèves</name>
-				</armor>
-				<armor>
-					<name>Spallière</name>
-				</armor>
-				<armor>
-					<name>Gaine</name>
-				</armor>
-			</heavy>
-		</blacksmithing>
-		<woodworking>
-			<armor>
-				<name>Bouclier</name>
-			</armor>
-		</woodworking>
-	</armors>
-	<traits>
-		<weaponsTraits>
-			<trait>
-				<name>Énergisé</name>
-				<item>Chrysolite</item>
-			</trait>
-			<trait>
-				<name>Chargé</name>
-				<item>Améthyste</item>
-			</trait>
-			<trait>
-				<name>Précis</name>
-				<item>Rubis</item>
-			</trait>
-			<trait>
-				<name>Infusé</name>
-				<item>Jade</item>
-			</trait>
-			<trait>
-				<name>Défenseur</name>
-				<item>Turquoise</item>
-			</trait>
-			<trait>
-				<name>Entraînement</name>
-				<item>Cornaline</item>
-			</trait>
-			<trait>
-				<name>Acéré</name>
-				<item>Opale de feu</item>
-			</trait>
-			<trait>
-				<name>Décisif</name>
-				<item>Citrine</item>
-			</trait>
-			<trait>
-				<name>Trempe de Nirn</name>
-				<item>Nirncrux puissant</item>
-			</trait>
-		</weaponsTraits>
-		<armorsTraits>
-			<trait>
-				<name>Solide</name>
-				<item>Quarts</item>
-			</trait>
-			<trait>
-				<name>Impénétrable</name>
-				<item>Diamant</item>
-			</trait>
-			<trait>
-				<name>Renforcé</name>
-				<item>Sardonyx</item>
-			</trait>
-			<trait>
-				<name>Ajusté</name>
-				<item>Almandine</item>
-			</trait>
-			<trait>
-				<name>Entraînement</name>
-				<item>Émeraude</item>
-			</trait>
-			<trait>
-				<name>Infusé</name>
-				<item>Pierre de sang</item>
-			</trait>
-			<trait>
-				<name>Prospère</name>
-				<item>Grenat</item>
-			</trait>
-			<trait>
-				<name>Divins</name>
-				<item>Saphir</item>
-			</trait>
-			<trait>
-				<name>Trempe de Nirn</name>
-				<item>Nirncrux fortifié</item>
-			</trait>
-		</armorsTraits>
-	</traits>
+    <weapons>
+        <blacksmithing>
+            <weapon>
+                <name>Hache</name>
+            </weapon>
+            <weapon>
+                <name>Masse</name>
+            </weapon>
+            <weapon>
+                <name>Épée</name>
+            </weapon>
+            <weapon>
+                <name>Hache de bataille</name>
+            </weapon>
+            <weapon>
+                <name>Masse d'arme</name>
+            </weapon>
+            <weapon>
+                <name>Épée longue</name>
+            </weapon>
+            <weapon>
+                <name>Dague</name>
+            </weapon>
+        </blacksmithing>
+        <woodworking>
+            <weapon>
+                <name>Arc</name>
+            </weapon>
+            <weapon>
+                <name>Bâton infernal</name>
+            </weapon>
+            <weapon>
+                <name>Bâton de glace</name>
+            </weapon>
+            <weapon>
+                <name>Bâton de foudre</name>
+            </weapon>
+            <weapon>
+                <name>Bâton de rétablissement</name>
+            </weapon>
+        </woodworking>
+    </weapons>
+    <armors>
+        <tailoring>
+            <light>
+                <armor>
+                    <name>Robe</name>
+                </armor>
+                <armor>
+                    <name>Pourpoint</name>
+                </armor>
+                <armor>
+                    <name>Chaussures</name>
+                </armor>
+                <armor>
+                    <name>Gants</name>
+                </armor>
+                <armor>
+                    <name>Chapeau</name>
+                </armor>
+                <armor>
+                    <name>Braies</name>
+                </armor>
+                <armor>
+                    <name>Épaulettes</name>
+                </armor>
+                <armor>
+                    <name>Baudrier</name>
+                </armor>
+            </light>
+            <medium>
+                <armor>
+                    <name>Gilet</name>
+                </armor>
+                <armor>
+                    <name>Bottes</name>
+                </armor>
+                <armor>
+                    <name>Brassards</name>
+                </armor>
+                <armor>
+                    <name>Casque</name>
+                </armor>
+                <armor>
+                    <name>Gardes</name>
+                </armor>
+                <armor>
+                    <name>Coques d'épaules</name>
+                </armor>
+                <armor>
+                    <name>Ceinture</name>
+                </armor>
+            </medium>
+        </tailoring>
+        <blacksmithing>
+            <heavy>
+                <armor>
+                    <name>Cuirasse</name>
+                </armor>
+                <armor>
+                    <name>Solerets</name>
+                </armor>
+                <armor>
+                    <name>Gantelets</name>
+                </armor>
+                <armor>
+                    <name>Heaume</name>
+                </armor>
+                <armor>
+                    <name>Grèves</name>
+                </armor>
+                <armor>
+                    <name>Spallière</name>
+                </armor>
+                <armor>
+                    <name>Gaine</name>
+                </armor>
+            </heavy>
+        </blacksmithing>
+        <woodworking>
+            <armor>
+                <name>Bouclier</name>
+            </armor>
+        </woodworking>
+    </armors>
+    <traits>
+        <weaponsTraits>
+            <trait>
+                <name>Énergisé</name>
+                <item>Chrysolite</item>
+            </trait>
+            <trait>
+                <name>Chargé</name>
+                <item>Améthyste</item>
+            </trait>
+            <trait>
+                <name>Précis</name>
+                <item>Rubis</item>
+            </trait>
+            <trait>
+                <name>Infusé</name>
+                <item>Jade</item>
+            </trait>
+            <trait>
+                <name>Défenseur</name>
+                <item>Turquoise</item>
+            </trait>
+            <trait>
+                <name>Entraînement</name>
+                <item>Cornaline</item>
+            </trait>
+            <trait>
+                <name>Acéré</name>
+                <item>Opale de feu</item>
+            </trait>
+            <trait>
+                <name>Décisif</name>
+                <item>Citrine</item>
+            </trait>
+            <trait>
+                <name>Trempe de Nirn</name>
+                <item>Nirncrux puissant</item>
+            </trait>
+        </weaponsTraits>
+        <armorsTraits>
+            <trait>
+                <name>Solide</name>
+                <item>Quarts</item>
+            </trait>
+            <trait>
+                <name>Impénétrable</name>
+                <item>Diamant</item>
+            </trait>
+            <trait>
+                <name>Renforcé</name>
+                <item>Sardonyx</item>
+            </trait>
+            <trait>
+                <name>Ajusté</name>
+                <item>Almandine</item>
+            </trait>
+            <trait>
+                <name>Entraînement</name>
+                <item>Émeraude</item>
+            </trait>
+            <trait>
+                <name>Infusé</name>
+                <item>Pierre de sang</item>
+            </trait>
+            <trait>
+                <name>Prospère</name>
+                <item>Grenat</item>
+            </trait>
+            <trait>
+                <name>Divins</name>
+                <item>Saphir</item>
+            </trait>
+            <trait>
+                <name>Trempe de Nirn</name>
+                <item>Nirncrux fortifié</item>
+            </trait>
+        </armorsTraits>
+    </traits>
+    <levels>
+        <lowLevels>
+            <level>
+                <name>Niveau 1</name>
+            </level>
+            <level>
+                <name>Niveau 4</name>
+            </level>
+            <level>
+                <name>Niveau 6</name>
+            </level>
+            <level>
+                <name>Niveau 8</name>
+            </level>
+            <level>
+                <name>Niveau 10</name>
+            </level>
+            <level>
+                <name>Niveau 12</name>
+            </level>
+            <level>
+                <name>Niveau 14</name>
+            </level>
+            <level>
+                <name>Niveau 16</name>
+            </level>
+            <level>
+                <name>Niveau 18</name>
+            </level>
+            <level>
+                <name>Niveau 20</name>
+            </level>
+            <level>
+                <name>Niveau 22</name>
+            </level>
+            <level>
+                <name>Niveau 24</name>
+            </level>
+            <level>
+                <name>Niveau 26</name>
+            </level>
+            <level>
+                <name>Niveau 28</name>
+            </level>
+            <level>
+                <name>Niveau 30</name>
+            </level>
+            <level>
+                <name>Niveau 32</name>
+            </level>
+            <level>
+                <name>Niveau 34</name>
+            </level>
+            <level>
+                <name>Niveau 36</name>
+            </level>
+            <level>
+                <name>Niveau 38</name>
+            </level>
+            <level>
+                <name>Niveau 40</name>
+            </level>
+            <level>
+                <name>Niveau 42</name>
+            </level>
+            <level>
+                <name>Niveau 44</name>
+            </level>
+            <level>
+                <name>Niveau 46</name>
+            </level>
+            <level>
+                <name>Niveau 48</name>
+            </level>
+            <level>
+                <name>Niveau 50</name>
+            </level>
+        </lowLevels>
+        <highLevels>
+            <level>
+                <name>Champion 10</name>
+            </level>
+            <level>
+                <name>Champion 20</name>
+            </level>
+            <level>
+                <name>Champion 30</name>
+            </level>
+            <level>
+                <name>Champion 40</name>
+            </level>
+            <level>
+                <name>Champion 50</name>
+            </level>
+            <level>
+                <name>Champion 60</name>
+            </level>
+            <level>
+                <name>Champion 70</name>
+            </level>
+            <level>
+                <name>Champion 80</name>
+            </level>
+            <level>
+                <name>Champion 90</name>
+            </level>
+            <level>
+                <name>Champion 100</name>
+            </level>
+            <level>
+                <name>Champion 110</name>
+            </level>
+            <level>
+                <name>Champion 120</name>
+            </level>
+            <level>
+                <name>Champion 130</name>
+            </level>
+            <level>
+                <name>Champion 140</name>
+            </level>
+            <level>
+                <name>Champion 150</name>
+            </level>
+            <level>
+                <name>Champion 160</name>
+            </level>
+        </highLevels>
+    </levels>
+    <rarity>
+        <rarity>
+            <name>Basique</name>
+        </rarity>
+        <rarity>
+            <name>Raffiné</name>
+        </rarity>
+        <rarity>
+            <name>Supérieur</name>
+        </rarity>
+        <rarity>
+            <name>Artefact</name>
+        </rarity>
+        <rarity>
+            <name>Légendaire</name>
+        </rarity>                  
+    </rarity>
 </equipment>
