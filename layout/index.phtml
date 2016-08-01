@@ -1,26 +1,31 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//FR" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="fr" lang="fr">
+<?php
+$css = null;
+$guild = Config::getConfig('app')['guild'];
+$js = null;
+if ($script !== null)
+{
+    require $script;
+}
+?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="<?php echo $lang; ?>" lang="<?php echo $lang; ?>">
     <head>
-        <title>Gestionnaire de commandes d'artisanat</title>
+        <title><?php echo $guild; ?></title>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
         <meta name="description" content="Gestionnaire de commandes de produits artisanaux" />
         <meta name="author" content="Alexis" />
         <link href="css/style.css" rel="stylesheet" type="text/css" />
-        <link href="css/layout.css" rel="stylesheet" type="text/css" />
+        <link href="css/layout.css" rel="stylesheet" type="text/css" /><?php PHPTools::renderCSS($css); ?>
         <script type="text/javascript" src="js/jquery.js"></script>
-        <script type="text/javascript" src="js/script.js"></script>
-        <script type="text/javascript" src="js/plugin.js"></script>
+        <script type="text/javascript" src="js/plugin.js"></script><?php PHPTools::renderJS($js); ?>
     </head>
-    <body id="page">
+    <body>
         <div class="tail-top-right"></div>
         <div id="main">
             <!-- header -->
             <div id="header">
-                <p><a href="<?php echo Plugin::createLink('home'); ?>">Accueil</a></p>
-                <p><a href="<?php echo Plugin::createLink('view'); ?>">Consulter les commandes adressées aux Artisans de la Guilde</a></p>
-                <p><a href="<?php echo Plugin::createLink('details'); ?>">Consulter les informations relatives aux Artisans de l'Orbe du Temps</a></p>
-                <p><a href="<?php echo Plugin::createLink('form'); ?>">Effectuer une commande auprès des Artisans de l'Orbe du Temps</a></p>
-                <p><a href="<?php echo Plugin::createLink('manage'); ?>">(Artisans uniquement) Gérer les commandes en cours ou achevées</a></p>
+                <p><?php echo HTMLTools::createElement('a', $attr = array('href' => HTMLTools::buildURL('home')), 'Accueil'); ?></p>
+                <p><?php echo HTMLTools::createElement('a', $attr = array('href' => HTMLTools::buildURL('crafting')), "Accéder au gestionnaire d'artisanat"); ?></p>
             </div>
             <!-- content -->
             <div id="content">
@@ -28,6 +33,7 @@
                     <?php require $template; ?>
                 </div>
             </div>
+            <div id="footer"></div>
         </div>
     </body>
 </html>

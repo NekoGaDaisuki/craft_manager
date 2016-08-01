@@ -3,8 +3,8 @@
 final class Index
 {
 
-    const DEFAULT_PAGE = 'home';
-    const RESSOURCES_DIR = '../ressources/';
+    const CLASS_SECTION = 'class';
+    const HOME_PAGE = 'home';
     const LAYOUT_DIR = '../layout/';
 
     public function init()
@@ -17,7 +17,9 @@ final class Index
     }
 
     public function run()
-    { $this->runPage($this->getPage()); }
+    {
+        $this->runPage($this->getPage());
+    }
 
     public function handleException(Exception $except)
     {
@@ -32,69 +34,95 @@ final class Index
         }
     }
 
-    public function loadClass($label)
+    public function loadClass($class)
     {
-        $ressources = array(
-            'NotFoundException' => '../exception/NotFoundException.php',
-            'Plugin' => '../plugin/Plugin.php',
-        );
-        if (!array_key_exists($label, $ressources))
-        { die('Class "' . $label . '" not found.'); }
-        require_once $ressources[$label];
+        require_once '../config/Config.php';
+        $ressources = Config::getConfig(self::CLASS_SECTION);
+        if ($class !== 'Config' && !array_key_exists($class, $ressources))
+        {
+            die('Class "' . $class . '" not found.');
+        }
+        require_once $ressources[$class];
     }
 
     private function getPage()
     {
-        $label = self::DEFAULT_PAGE;
-        if (array_key_exists('label', $_GET))
+        $page = filter_input(INPUT_GET, 'page');
+        if ($page === null)
         {
-            $label = $_GET['label'];
+            $page = self::HOME_PAGE;
         }
-        return $this->checkPage($label);
+        return $this->checkPage($page);
     }
 
-    private function checkPage($label)
+    private function checkPage($page)
     {
-        if (!preg_match('/^[a-z0-9-]+$/i', $label))
-        { throw new NotFoundException('Unsafe page "' . $label . '" requested'); }
-        if (!$this->hasScript($label) && !$this->hasTemplate($label))
-        { throw new NotFoundException('Page "' . $label . '" not found'); }
-        return $label;
+        $lang = HTMLTools::getLang();
+        if (!preg_match('/^[a-z0-9-]+$/i', $page))
+        {
+            throw new NotFoundException('Unsafe page "' . $page . '" requested');
+        }
+        if (!$this->hasScript($page, $lang) && !$this->hasTemplate($page, $lang))
+        {
+            throw new NotFoundException('Page "' . $page . '" not found');
+        }
+        return $page;
     }
 
-    private function runPage($label)
+    private function runPage($page)
     {
+        $lang = HTMLTools::getLang();
         $run = false;
-        if ($this->hasScript($label))
+        $script = null;
+        if ($this->hasScript($page, $lang))
         {
             $run = true;
-            require $this->getScript($label);
+            $script = $this->getScript($page, $lang);
         }
-        if ($this->hasTemplate($label))
+        if ($this->hasTemplate($page, $lang))
         {
             $run = true;
-            $template = $this->getTemplate($label);
+            $template = $this->getTemplate($page, $lang);
             require self::LAYOUT_DIR . 'index.phtml';
         }
         if (!$run)
-        { die('Page "' . $label . '" has neither script nor template!'); }
+        {
+            die('Page "' . $page . '" has neither script nor template!');
+        }
     }
 
-    private function getScript($label)
-    { return self::RESSOURCES_DIR . $label . '.php'; }
+    private function getScript($page, $lang)
+    {
+        return '../' . $lang . '/' . $page . '.php';
+    }
 
-    private function getTemplate($label)
-    { return self::RESSOURCES_DIR . $label . '.phtml'; }
+    private function getTemplate($page, $lang)
+    {
+        return '../' . $lang . '/' . $page . '.phtml';
+    }
 
-    private function hasScript($label)
-    { return file_exists($this->getScript($label)); }
+    private function hasScript($page, $lang)
+    {
+        return file_exists($this->getScript($page, $lang));
+    }
 
-    private function hasTemplate($label)
-    { return file_exists($this->getTemplate($label)); }
+    private function hasTemplate($page, $lang)
+    {
+        return file_exists($this->getTemplate($page, $lang));
+    }
 
 }
 
-$index = new Index();
-$index->init();
-$index->run();
+class FactoryIndex
+{
 
+    public function __construct()
+    {
+        $index = new Index();
+        $index->init();
+        $index->run();
+    }
+
+}
+
+$content = new FactoryIndex();

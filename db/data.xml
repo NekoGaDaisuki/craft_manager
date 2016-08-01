@@ -1,0 +1,402 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+- phpMyAdmin XML Dump
+- version 4.5.1
+- https://www.phpmyadmin.net
+-
+- Client :  127.0.0.1
+- Généré le :  Sam 30 Juillet 2016 Ã  10:47
+- Version du serveur :  10.1.13-MariaDB
+- Version de PHP :  5.6.21
+-->
+
+<pma_xml_export version="1.0" xmlns:pma="http://www.phpmyadmin.net/some_doc_url/">
+    <!--
+    - Structure schemas
+    -->
+    <pma:structure_schemas>
+        <pma:database name="craft_manager" collation="utf8_general_mysql500_ci" charset="utf8">
+            <pma:table name="reagent_effect">
+                CREATE TABLE `reagent_effect` (
+                  `id` int(10) unsigned NOT NULL AUTO_INCREMENT,
+                  `fr` varchar(255) COLLATE utf8_general_mysql500_ci NOT NULL,
+                  PRIMARY KEY (`id`)
+                ) ENGINE=MyISAM AUTO_INCREMENT=31 DEFAULT CHARSET=utf8 COLLATE=utf8_general_mysql500_ci;
+            </pma:table>
+            <pma:table name="reagent">
+                CREATE TABLE `reagent` (
+                  `id` int(10) unsigned NOT NULL AUTO_INCREMENT,
+                  `fr` varchar(255) COLLATE utf8_general_mysql500_ci NOT NULL,
+                  `base` BIT,
+                  `effectA` int(10) unsigned NOT NULL,
+                  `effectB` int(10) unsigned NOT NULL,
+                  `effectC` int(10) unsigned NOT NULL,
+                  `effectD` int(10) unsigned NOT NULL,
+                  PRIMARY KEY (`id`)
+                ) ENGINE=MyISAM AUTO_INCREMENT=27 DEFAULT CHARSET=utf8 COLLATE=utf8_general_mysql500_ci;
+            </pma:table>
+        </pma:database>
+    </pma:structure_schemas>
+
+    <!--
+    - Base de données :  'craft_manager'
+    -->
+    <database name="craft_manager">
+        <!-- Table reagent_effect -->
+        <table name="reagent_effect">
+            <column name="id">1</column>
+            <column name="fr">Augmente la puissance des sorts</column>
+        </table>
+        <table name="reagent_effect">
+            <column name="id">2</column>
+            <column name="fr">Diminue la puissance des sorts</column>
+        </table>
+        <table name="reagent_effect">
+            <column name="id">3</column>
+            <column name="fr">Augmente la puissance de l'arme</column>
+        </table>
+        <table name="reagent_effect">
+            <column name="id">4</column>
+            <column name="fr">Diminue la puissance de l'arme</column>
+        </table>
+        <table name="reagent_effect">
+            <column name="id">5</column>
+            <column name="fr">Sort critique</column>
+        </table>
+        <table name="reagent_effect">
+            <column name="id">6</column>
+            <column name="fr">Diminue le sort critique</column>
+        </table>
+        <table name="reagent_effect">
+            <column name="id">7</column>
+            <column name="fr">Arme critique</column>
+        </table>
+        <table name="reagent_effect">
+            <column name="id">8</column>
+            <column name="fr">Diminue l'arme critique</column>
+        </table>
+        <table name="reagent_effect">
+            <column name="id">9</column>
+            <column name="fr">Augmente la résistance aux sorts</column>
+        </table>
+        <table name="reagent_effect">
+            <column name="id">10</column>
+            <column name="fr">Diminue la résistance aux sorts</column>
+        </table>
+        <table name="reagent_effect">
+            <column name="id">11</column>
+            <column name="fr">Augmente l'armure</column>
+        </table>
+        <table name="reagent_effect">
+            <column name="id">12</column>
+            <column name="fr">Diminue l'armure</column>
+        </table>
+        <table name="reagent_effect">
+            <column name="id">13</column>
+            <column name="fr">Protection</column>
+        </table>
+        <table name="reagent_effect">
+            <column name="id">14</column>
+            <column name="fr">Vulnérabilité</column>
+        </table>
+        <table name="reagent_effect">
+            <column name="id">15</column>
+            <column name="fr">Vitalité</column>
+        </table>
+        <table name="reagent_effect">
+            <column name="id">16</column>
+            <column name="fr">Profanation</column>
+        </table>
+        <table name="reagent_effect">
+            <column name="id">17</column>
+            <column name="fr">Implacable</column>
+        </table>
+        <table name="reagent_effect">
+            <column name="id">18</column>
+            <column name="fr">Sonne</column>
+        </table>
+        <table name="reagent_effect">
+            <column name="id">19</column>
+            <column name="fr">de détection</column>
+        </table>
+        <table name="reagent_effect">
+            <column name="id">20</column>
+            <column name="fr">Invisibilité</column>
+        </table>
+        <table name="reagent_effect">
+            <column name="id">21</column>
+            <column name="fr">Vitesse</column>
+        </table>
+        <table name="reagent_effect">
+            <column name="id">22</column>
+            <column name="fr">Réduit la vitesse</column>
+        </table>
+        <table name="reagent_effect">
+            <column name="id">23</column>
+            <column name="fr">Rend de la Santé</column>
+        </table>
+        <table name="reagent_effect">
+            <column name="id">24</column>
+            <column name="fr">Réduit la Santé</column>
+        </table>
+        <table name="reagent_effect">
+            <column name="id">25</column>
+            <column name="fr">Récupération de Santé prolongée</column>
+        </table>
+        <table name="reagent_effect">
+            <column name="id">26</column>
+            <column name="fr">Ravage de Santé insidieux</column>
+        </table>
+        <table name="reagent_effect">
+            <column name="id">27</column>
+            <column name="fr">Rend de la Magie</column>
+        </table>
+        <table name="reagent_effect">
+            <column name="id">28</column>
+            <column name="fr">Ravage de Magie</column>
+        </table>
+        <table name="reagent_effect">
+            <column name="id">29</column>
+            <column name="fr">Rend de la Vigueur</column>
+        </table>
+        <table name="reagent_effect">
+            <column name="id">30</column>
+            <column name="fr">Réduit la vigueur</column>
+        </table>
+        <!-- Table reagent -->
+        <table name="reagent">
+            <column name="id">1</column>
+            <column name="fr">Absinthe</column>
+            <column name="base">0</column>
+            <column name="effectA">7</column>
+            <column name="effectB">19</column>
+            <column name="effectC">22</column>
+            <column name="effectD">17</column>
+        </table>
+        <table name="reagent">
+            <column name="id">2</column>
+            <column name="fr">Ancolie</column>
+            <column name="base">0</column>
+            <column name="effectA">23</column>
+            <column name="effectB">29</column>
+            <column name="effectC">27</column>
+            <column name="effectD">17</column>
+        </table>
+        <table name="reagent">
+            <column name="id">3</column>
+            <column name="fr">Bleuet</column>
+            <column name="base">0</column>
+            <column name="effectA">27</column>
+            <column name="effectB">24</column>
+            <column name="effectC">1</column>
+            <column name="effectD">19</column>
+        </table>
+        <table name="reagent">
+            <column name="id">4</column>
+            <column name="fr">Cardamine des prés</column>
+            <column name="base">0</column>
+            <column name="effectA">1</column>
+            <column name="effectB">10</column>
+            <column name="effectC">27</column>
+            <column name="effectD">5</column>
+        </table>
+        <table name="reagent">
+            <column name="id">5</column>
+            <column name="fr">Chapeau blanc</column>
+            <column name="base">0</column>
+            <column name="effectA">2</column>
+            <column name="effectB">9</column>
+            <column name="effectC">28</column>
+            <column name="effectD">19</column>
+        </table>
+        <table name="reagent">
+            <column name="id">6</column>
+            <column name="fr">Chardon béni</column>
+            <column name="base">0</column>
+            <column name="effectA">29</column>
+            <column name="effectB">24</column>
+            <column name="effectC">3</column>
+            <column name="effectD">21</column>
+        </table>
+        <table name="reagent">
+            <column name="id">7</column>
+            <column name="fr">Coprin violet</column>
+            <column name="base">0</column>
+            <column name="effectA">10</column>
+            <column name="effectB">1</column>
+            <column name="effectC">24</column>
+            <column name="effectD">28</column>
+        </table>
+        <table name="reagent">
+            <column name="id">8</column>
+            <column name="fr">Entoloma Bleue</column>
+            <column name="base">0</column>
+            <column name="effectA">28</column>
+            <column name="effectB">23</column>
+            <column name="effectC">1</column>
+            <column name="effectD">20</column>
+        </table>
+        <table name="reagent">
+            <column name="id">9</column>
+            <column name="fr">Épine-de-dragon</column>
+            <column name="base">0</column>
+            <column name="effectA">3</column>
+            <column name="effectB">12</column>
+            <column name="effectC">29</column>
+            <column name="effectD">7</column>
+        </table>
+        <table name="reagent">
+            <column name="id">10</column>
+            <column name="fr">Jacinthe d'eau</column>
+            <column name="base">0</column>
+            <column name="effectA">23</column>
+            <column name="effectB">7</column>
+            <column name="effectC">5</column>
+            <column name="effectD">18</column>
+        </table>
+        <table name="reagent">
+            <column name="id">11</column>
+            <column name="fr">Lys des cimes</column>
+            <column name="base">0</column>
+            <column name="effectA">11</column>
+            <column name="effectB">4</column>
+            <column name="effectC">23</column>
+            <column name="effectD">29</column>
+        </table>
+        <table name="reagent">
+            <column name="id">12</column>
+            <column name="fr">Mutinus Elegans</column>
+            <column name="base">0</column>
+            <column name="effectA">12</column>
+            <column name="effectB">3</column>
+            <column name="effectC">24</column>
+            <column name="effectD">30</column>
+        </table>
+        <table name="reagent">
+            <column name="id">13</column>
+            <column name="fr">Nirnrave</column>
+            <column name="base">0</column>
+            <column name="effectA">24</column>
+            <column name="effectB">8</column>
+            <column name="effectC">6</column>
+            <column name="effectD">20</column>
+        </table>
+        <table name="reagent">
+            <column name="id">14</column>
+            <column name="fr">Noctuelle</column>
+            <column name="base">0</column>
+            <column name="effectA">9</column>
+            <column name="effectB">2</column>
+            <column name="effectC">23</column>
+            <column name="effectD">27</column>
+        </table>
+        <table name="reagent">
+            <column name="id">15</column>
+            <column name="fr">Pied-de-lutin</column>
+            <column name="base">0</column>
+            <column name="effectA">4</column>
+            <column name="effectB">11</column>
+            <column name="effectC">30</column>
+            <column name="effectD">8</column>
+        </table>
+        <table name="reagent">
+            <column name="id">16</column>
+            <column name="fr">Russule émétique</column>
+            <column name="base">0</column>
+            <column name="effectA">24</column>
+            <column name="effectB">30</column>
+            <column name="effectC">28</column>
+            <column name="effectD">18</column>
+        </table>
+        <table name="reagent">
+            <column name="id">17</column>
+            <column name="fr">Russule phosphorescente</column>
+            <column name="base">0</column>
+            <column name="effectA">30</column>
+            <column name="effectB">23</column>
+            <column name="effectC">4</column>
+            <column name="effectD">22</column>
+        </table>
+        <table name="reagent">
+            <column name="id">18</column>
+            <column name="fr">Truffe de Namira</column>
+            <column name="base">0</column>
+            <column name="effectA">5</column>
+            <column name="effectB">20</column>
+            <column name="effectC">21</column>
+            <column name="effectD">17</column>
+        </table>
+        <table name="reagent">
+            <column name="id">19</column>
+            <column name="fr">Aile de Papillon</column>
+            <column name="base">1</column>
+            <column name="effectA">23</column>
+            <column name="effectB">25</column>
+            <column name="effectC">6</column>
+            <column name="effectD">15</column>
+        </table>
+        <table name="reagent">
+            <column name="id">20</column>
+            <column name="fr">Belladone</column>
+            <column name="base">1</column>
+            <column name="effectA">24</column>
+            <column name="effectB">26</column>
+            <column name="effectC">13</column>
+            <column name="effectD">16</column>
+        </table>
+        <table name="reagent">
+            <column name="id">21</column>
+            <column name="fr">Chitine de Vasard</column>
+            <column name="base">1</column>
+            <column name="effectA">9</column>
+            <column name="effectB">13</column>
+            <column name="effectC">11</column>
+            <column name="effectD">16</column>
+        </table>
+        <table name="reagent">
+            <column name="id">22</column>
+            <column name="fr">Cloaque de Scarabée</column>
+            <column name="base">1</column>
+            <column name="effectA">10</column>
+            <column name="effectB">13</column>
+            <column name="effectC">11</column>
+            <column name="effectD">15</column>
+        </table>
+        <table name="reagent">
+            <column name="id">23</column>
+            <column name="fr">Gelée de Scrib</column>
+            <column name="base">1</column>
+            <column name="effectA">28</column>
+            <column name="effectB">14</column>
+            <column name="effectC">21</column>
+            <column name="effectD">25</column>
+        </table>
+        <table name="reagent">
+            <column name="id">24</column>
+            <column name="fr">Larve de Mouche à Viande</column>
+            <column name="base">1</column>
+            <column name="effectA">30</column>
+            <column name="effectB">26</column>
+            <column name="effectC">14</column>
+            <column name="effectD">15</column>
+        </table>
+        <table name="reagent">
+            <column name="id">25</column>
+            <column name="fr">Oeuf d'araignée</column>
+            <column name="base">1</column>
+            <column name="effectA">22</column>
+            <column name="effectB">25</column>
+            <column name="effectC">20</column>
+            <column name="effectD">16</column>
+        </table>
+        <table name="reagent">
+            <column name="id">26</column>
+            <column name="fr">Thorax de Flammouche</column>
+            <column name="base">1</column>
+            <column name="effectA">12</column>
+            <column name="effectB">19</column>
+            <column name="effectC">8</column>
+            <column name="effectD">15</column>
+        </table>
+    </database>
+</pma_xml_export>

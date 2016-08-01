@@ -17,3 +17,12 @@ function deleteRow(tableID)
         table.deleteRow(table.rows.length - 1);
     }
 }
+
+function toggleDisplay(itemID)
+{
+    var item = document.getElementById(itemID);
+    if (item.style.display === "none")
+    { item.style.display = "inline-block"; }
+    else
+    { item.style.display = "none"; }
+}

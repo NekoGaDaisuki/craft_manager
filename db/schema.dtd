@@ -1,0 +1,62 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<!--
+    TODO define vocabulary identification
+    PUBLIC ID: -//vendor//vocabulary//EN
+    SYSTEM ID: http://server/path/ressources_db.dtd
+
+-->
+
+<!--
+    An example how to use this DTD from your XML document:
+
+    <?xml version="1.0"?>
+
+    <!DOCTYPE pma_xml_export SYSTEM "ressources_db.dtd">
+
+    <pma_xml_export>
+    ...
+    </pma_xml_export>
+-->
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT pma_xml_export (database|pma:structure_schemas)*>
+<!ATTLIST pma_xml_export
+    version CDATA #IMPLIED
+    xmlns:pma CDATA #IMPLIED
+  >
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT pma:structure_schemas (pma:database)*>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT pma:database (pma:table)*>
+<!ATTLIST pma:database
+    name CDATA #IMPLIED
+    collation CDATA #IMPLIED
+    charset CDATA #IMPLIED
+  >
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT pma:table (#PCDATA)>
+<!ATTLIST pma:table
+    name CDATA #IMPLIED
+  >
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT database (table)*>
+<!ATTLIST database
+    name CDATA #IMPLIED
+  >
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT table (column)*>
+<!ATTLIST table
+    name CDATA #IMPLIED
+  >
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT column (#PCDATA)>
+<!ATTLIST column
+    name CDATA #IMPLIED
+  >

@@ -1,412 +1,466 @@
 <?xml version="1.0" encoding="utf-8"?>
 <enchanting>
-	<glyphs>
-		<armorGlyphs>
-			<glyph>
-				<label>Glyphe vital</label>
-			</glyph>
-			<glyph>
-				<label>Glyphe magique</label>
-			</glyph>
-			<glyph>
-				<label>Glyphe vigoureux</label>
-			</glyph>
-			<glyph>
-				<label>Glyphe de défense prismatique</label>
-			</glyph>
-		</armorGlyphs>
-		<weaponGlyphs>
-			<glyph>
-				<label>Glyphe d'assaut prismatique</label>
-			</glyph>
-			<glyph>
-				<label>Glyphe de dégâts d'arme</label>
-			</glyph>
-			<glyph>
-				<label>Glyphe contondant</label>
-			</glyph>
-			<glyph>
-				<label>Glyphe sangsue</label>
-			</glyph>
-			<glyph>
-				<label>Glyphe d'absorption de magie</label>
-			</glyph>
-			<glyph>
-				<label>Glyphe d'absorption de vigueur</label>
-			</glyph>
-			<glyph>
-				<label>Glyphe de santé déclinante</label>
-			</glyph>
-			<glyph>
-				<label>Glyphe givré</label>
-			</glyph>
-			<glyph>
-				<label>Glyphe ardent</label>
-			</glyph>
-			<glyph>
-				<label>Glyphe étourdissant</label>
-			</glyph>
-			<glyph>
-				<label>Glyphe empoisonné</label>
-			</glyph>
-			<glyph>
-				<label>Glyphe odieux</label>
-			</glyph>
-			<glyph>
-				<label>Glyphe robuste</label>
-			</glyph>
-			<glyph>
-				<label>Glyphe affaiblissant</label>
-			</glyph>
-		</weaponGlyphs>
-		<jewelryGlyphs>
-			<glyph>
-				<label>Glyphe revivifiant</label>
-			</glyph>
-			<glyph>
-				<label>Glyphe régénérant</label>
-			</glyph>
-			<glyph>
-				<label>Glyphe revigorant</label>
-			</glyph>
-			<glyph>
-				<label>Glyphe du mage</label>
-			</glyph>
-			<glyph>
-				<label>Glyphe du virtuose</label>
-			</glyph>
-			<glyph>
-				<label>Glyphe de puissance physique</label>
-			</glyph>
-			<glyph>
-				<label>Glyphe de puissance magique</label>
-			</glyph>
-			<glyph>
-				<label>Glyphe de résistance physique</label>
-			</glyph>
-			<glyph>
-				<label>Glyphe de résistance magique</label>
-			</glyph>
-			<glyph>
-				<label>Glyphe de résistance au givre</label>
-			</glyph>
-			<glyph>
-				<label>Glyphe ignifugé</label>
-			</glyph>
-			<glyph>
-				<label>Glyphe isolé</label>
-			</glyph>
-			<glyph>
-				<label>Glyphe de résistance au poison</label>
-			</glyph>
-			<glyph>
-				<label>Glyphe de résistance à la maladie</label>
-			</glyph>
-			<glyph>
-				<label>Glyphe percutant</label>
-			</glyph>
-			<glyph>
-				<label>Glyphe blindé</label>
-			</glyph>
-			<glyph>
-				<label>Glyphe de l'alchimiste</label>
-			</glyph>
-			<glyph>
-				<label>Glyphe d'accélération des potions</label>
-			</glyph>
-		</jewelryGlyphs>
-	</glyphs>
-	<potencyRunes>
-		<positiveRunes>
-			<lowLevels>
-				<rune>
-					<name>Jora</name>
-					<traduction>Développer</traduction>
-					<level>Niveau 1</level>
-				</rune>
-				<rune>
-					<name>Porade</name>
-					<traduction>Ajouter</traduction>
-					<level>Niveau 5</level>
-				</rune>
-				<rune>
-					<name>Jéra</name>
-					<traduction>Améliorer</traduction>
-					<level>Niveau 10</level>
-				</rune>
-				<rune>
-					<name>Jéjora</name>
-					<traduction>Élever</traduction>
-					<level>Niveau 15</level>
-				</rune>
-				<rune>
-					<name>Odra</name>
-					<traduction>Gagner</traduction>
-					<level>Niveau 20</level>
-				</rune>
-				<rune>
-					<name>Pojora</name>
-					<traduction>Supplément</traduction>
-					<level>Niveau 25</level>
-				</rune>
-				<rune>
-					<name>Edora</name>
-					<traduction>Ajouter</traduction>
-					<level>Niveau 30</level>
-				</rune>
-				<rune>
-					<name>Jaera</name>
-					<traduction>Avancer</traduction>
-					<level>Niveau 35</level>
-				</rune>
-				<rune>
-					<name>Pora</name>
-					<traduction>Augmenter</traduction>
-					<level>Niveau 40</level>
-				</rune>
-			</lowLevels>
-			<highLevels>
-				<rune>
-					<name>Dénara</name>
-					<traduction>Renforcer</traduction>
-					<level>Champion 10</level>
-				</rune>
-				<rune>
-					<name>Réra</name>
-					<traduction>Éxagérer</traduction>
-					<level>Champion 30</level>
-				</rune>
-				<rune>
-					<name>Dérado</name>
-					<traduction>Dynamiser</traduction>
-					<level>Champion 50</level>
-				</rune>
-				<rune>
-					<name>Rékura</name>
-					<traduction>Magnifier</traduction>
-					<level>Champion 70</level>
-				</rune>
-				<rune>
-					<name>Kura</name>
-					<traduction>Intensifier</traduction>
-					<level>Champion 100</level>
-				</rune>
-				<rune>
-					<name>Rejera</name>
-					<traduction>Amplifier</traduction>
-					<level>Champion 150</level>
-				</rune>
-				<rune>
-					<name>Repora</name>
-					<traduction>Renforcer</traduction>
-					<level>Champion 160</level>
-				</rune>
-			</highLevels>
-		</positiveRunes>
-		<negativeRunes>
-			<lowLevels>
-				<rune>
-					<name>Jode</name>
-					<traduction>Réduire</traduction>
-					<level>Niveau 1</level>
-				</rune>
-				<rune>
-					<name>Notade</name>
-					<traduction>Soustraire</traduction>
-					<level>Niveau 5</level>
-				</rune>
-				<rune>
-					<name>Ode</name>
-					<traduction>Diminuer</traduction>
-					<level>Niveau 10</level>
-				</rune>
-				<rune>
-					<name>Tade</name>
-					<traduction>Rapetisser</traduction>
-					<level>Niveau 15</level>
-				</rune>
-				<rune>
-					<name>Jayde</name>
-					<traduction>Déduire</traduction>
-					<level>Niveau 20</level>
-				</rune>
-				<rune>
-					<name>Edode</name>
-					<traduction>Abaisser</traduction>
-					<level>Niveau 25</level>
-				</rune>
-				<rune>
-					<name>Pojode</name>
-					<traduction>Raccourcir</traduction>
-					<level>Niveau 30</level>
-				</rune>
-				<rune>
-					<name>Rekudé</name>
-					<traduction>Affaiblir</traduction>
-					<level>Niveau 35</level>
-				</rune>
-				<rune>
-					<name>Hade</name>
-					<traduction>Amoindrir</traduction>
-					<level>Niveau 40</level>
-				</rune>
-			</lowLevels>
-			<highLevels>
-				<rune>
-					<name>Idode</name>
-					<traduction>Entraver</traduction>
-					<level>Champion 10</level>
-				</rune>
-				<rune>
-					<name>Pode</name>
-					<traduction>Retirer</traduction>
-					<level>Champion 30</level>
-				</rune>
-				<rune>
-					<name>Kédéko</name>
-					<traduction>Drainer</traduction>
-					<level>Champion 50</level>
-				</rune>
-				<rune>
-					<name>Rede</name>
-					<traduction>Priver</traduction>
-					<level>Champion 70</level>
-				</rune>
-				<rune>
-					<name>Kudé</name>
-					<traduction>Annuler</traduction>
-					<level>Champion 100</level>
-				</rune>
-				<rune>
-					<name>Jehade</name>
-					<traduction>Retrait</traduction>
-					<level>Champion 150</level>
-				</rune>
-				<rune>
-					<name>Itade</name>
-					<traduction>Pillage</traduction>
-					<level>Champion 160</level>
-				</rune>
-			</highLevels>
-		</negativeRunes>
-	</potencyRunes>
-	<essenceRunes>
-		<rune>
-			<type>essence</type>
-			<name>Oko</name>
-			<traduction>Santé</traduction>
-		</rune>
-		<rune>
-			<type>essence</type>
-			<name>Makko</name>
-			<traduction>Magie</traduction>
-		</rune>
-		<rune>
-			<type>essence</type>
-			<name>Deni</name>
-			<traduction>Vigueur</traduction>
-		</rune>
-		<rune>
-			<type>essence</type>
-			<name>Okoma</name>
-			<traduction>Régénération de Santé</traduction>
-		</rune>
-		<rune>
-			<type>essence</type>
-			<name>Makkoma</name>
-			<traduction>Régénération de Magie</traduction>
-		</rune>
-		<rune>
-			<type>essence</type>
-			<name>Denima</name>
-			<traduction>Régénération de Vigueur</traduction>
-		</rune>
-		<rune>
-			<type>essence</type>
-			<name>Kuoko</name>
-			<traduction>Poison</traduction>
-		</rune>
-		<rune>
-			<type>essence</type>
-			<name>Rakeïpa</name>
-			<traduction>Feu</traduction>
-		</rune>
-		<rune>
-			<type>essence</type>
-			<name>Dekeïpa</name>
-			<traduction>Glace</traduction>
-		</rune>
-		<rune>
-			<type>essence</type>
-			<name>Méip</name>
-			<traduction>Foudre</traduction>
-		</rune>
-		<rune>
-			<type>essence</type>
-			<name>Haoko</name>
-			<traduction>Maladie</traduction>
-		</rune>
-		<rune>
-			<type>essence</type>
-			<name>Deteri</name>
-			<traduction>Armure</traduction>
-		</rune>
-		<rune>
-			<type>essence</type>
-			<name>Okori</name>
-			<traduction>Pouvoir</traduction>
-		</rune>
-		<rune>
-			<type>essence</type>
-			<name>Oru</name>
-			<traduction>Alchimiste</traduction>
-		</rune>
-		<rune>
-			<type>essence</type>
-			<name>Taderi</name>
-			<traduction>Dégâts physiques</traduction>
-		</rune>
-		<rune>
-			<type>essence</type>
-			<name>Makdéri</name>
-			<traduction>Dégâts magiques</traduction>
-		</rune>
-		<rune>
-			<type>essence</type>
-			<name>Kadéri</name>
-			<traduction>Bouclier</traduction>
-		</rune>
-		<rune>
-			<type>essence</type>
-			<name>Hakeijo</name>
-			<traduction>Prisme</traduction>
-		</rune>
-	</essenceRunes>
-	<aspectRunes>
-		<rune>
-			<type>aspect</type>
-			<name>Ta</name>
-			<traduction>Base</traduction>
-		</rune>
-		<rune>
-			<type>aspect</type>
-			<name>Jéjota</name>
-			<traduction>Raffiné</traduction>
-		</rune>
-		<rune>
-			<type>aspect</type>
-			<name>Denata</name>
-			<traduction>Supérieur</traduction>
-		</rune>
-		<rune>
-			<type>aspect</type>
-			<name>Rekuta</name>
-			<traduction>Artefact</traduction>
-		</rune>
-		<rune>
-			<type>aspect</type>
-			<name>Kuta</name>
-			<traduction>Légendaire</traduction>
-		</rune>
-	</aspectRunes>
+    <glyphs>
+        <armorGlyphs>
+            <glyph>
+                <label>Glyphe vital</label>
+            </glyph>
+            <glyph>
+                <label>Glyphe magique</label>
+            </glyph>
+            <glyph>
+                <label>Glyphe vigoureux</label>
+            </glyph>
+            <glyph>
+                <label>Glyphe de défense prismatique</label>
+            </glyph>
+        </armorGlyphs>
+        <weaponGlyphs>
+            <glyph>
+                <label>Glyphe d'assaut prismatique</label>
+            </glyph>
+            <glyph>
+                <label>Glyphe de dégâts d'arme</label>
+            </glyph>
+            <glyph>
+                <label>Glyphe contondant</label>
+            </glyph>
+            <glyph>
+                <label>Glyphe sangsue</label>
+            </glyph>
+            <glyph>
+                <label>Glyphe d'absorption de magie</label>
+            </glyph>
+            <glyph>
+                <label>Glyphe d'absorption de vigueur</label>
+            </glyph>
+            <glyph>
+                <label>Glyphe de santé déclinante</label>
+            </glyph>
+            <glyph>
+                <label>Glyphe givré</label>
+            </glyph>
+            <glyph>
+                <label>Glyphe ardent</label>
+            </glyph>
+            <glyph>
+                <label>Glyphe étourdissant</label>
+            </glyph>
+            <glyph>
+                <label>Glyphe empoisonné</label>
+            </glyph>
+            <glyph>
+                <label>Glyphe odieux</label>
+            </glyph>
+            <glyph>
+                <label>Glyphe robuste</label>
+            </glyph>
+            <glyph>
+                <label>Glyphe affaiblissant</label>
+            </glyph>
+        </weaponGlyphs>
+        <jewelryGlyphs>
+            <glyph>
+                <label>Glyphe revivifiant</label>
+            </glyph>
+            <glyph>
+                <label>Glyphe régénérant</label>
+            </glyph>
+            <glyph>
+                <label>Glyphe revigorant</label>
+            </glyph>
+            <glyph>
+                <label>Glyphe du mage</label>
+            </glyph>
+            <glyph>
+                <label>Glyphe du virtuose</label>
+            </glyph>
+            <glyph>
+                <label>Glyphe de puissance physique</label>
+            </glyph>
+            <glyph>
+                <label>Glyphe de puissance magique</label>
+            </glyph>
+            <glyph>
+                <label>Glyphe de résistance physique</label>
+            </glyph>
+            <glyph>
+                <label>Glyphe de résistance magique</label>
+            </glyph>
+            <glyph>
+                <label>Glyphe de résistance au givre</label>
+            </glyph>
+            <glyph>
+                <label>Glyphe ignifugé</label>
+            </glyph>
+            <glyph>
+                <label>Glyphe isolé</label>
+            </glyph>
+            <glyph>
+                <label>Glyphe de résistance au poison</label>
+            </glyph>
+            <glyph>
+                <label>Glyphe de résistance à la maladie</label>
+            </glyph>
+            <glyph>
+                <label>Glyphe percutant</label>
+            </glyph>
+            <glyph>
+                <label>Glyphe blindé</label>
+            </glyph>
+            <glyph>
+                <label>Glyphe de l'alchimiste</label>
+            </glyph>
+            <glyph>
+                <label>Glyphe d'accélération des potions</label>
+            </glyph>
+        </jewelryGlyphs>
+    </glyphs>
+    <potencyRunes>
+        <positiveRunes>
+            <lowLevels>
+                <rune>
+                    <name>Jora</name>
+                    <traduction>Développer</traduction>
+                    <level>Niveau 1</level>
+                </rune>
+                <rune>
+                    <name>Porade</name>
+                    <traduction>Ajouter</traduction>
+                    <level>Niveau 5</level>
+                </rune>
+                <rune>
+                    <name>Jéra</name>
+                    <traduction>Améliorer</traduction>
+                    <level>Niveau 10</level>
+                </rune>
+                <rune>
+                    <name>Jéjora</name>
+                    <traduction>Élever</traduction>
+                    <level>Niveau 15</level>
+                </rune>
+                <rune>
+                    <name>Odra</name>
+                    <traduction>Gagner</traduction>
+                    <level>Niveau 20</level>
+                </rune>
+                <rune>
+                    <name>Pojora</name>
+                    <traduction>Supplément</traduction>
+                    <level>Niveau 25</level>
+                </rune>
+                <rune>
+                    <name>Edora</name>
+                    <traduction>Ajouter</traduction>
+                    <level>Niveau 30</level>
+                </rune>
+                <rune>
+                    <name>Jaera</name>
+                    <traduction>Avancer</traduction>
+                    <level>Niveau 35</level>
+                </rune>
+                <rune>
+                    <name>Pora</name>
+                    <traduction>Augmenter</traduction>
+                    <level>Niveau 40</level>
+                </rune>
+            </lowLevels>
+            <highLevels>
+                <rune>
+                    <name>Dénara</name>
+                    <traduction>Renforcer</traduction>
+                    <level>Champion 10</level>
+                </rune>
+                <rune>
+                    <name>Réra</name>
+                    <traduction>Éxagérer</traduction>
+                    <level>Champion 30</level>
+                </rune>
+                <rune>
+                    <name>Dérado</name>
+                    <traduction>Dynamiser</traduction>
+                    <level>Champion 50</level>
+                </rune>
+                <rune>
+                    <name>Rékura</name>
+                    <traduction>Magnifier</traduction>
+                    <level>Champion 70</level>
+                </rune>
+                <rune>
+                    <name>Kura</name>
+                    <traduction>Intensifier</traduction>
+                    <level>Champion 100</level>
+                </rune>
+                <rune>
+                    <name>Rejera</name>
+                    <traduction>Amplifier</traduction>
+                    <level>Champion 150</level>
+                </rune>
+                <rune>
+                    <name>Repora</name>
+                    <traduction>Renforcer</traduction>
+                    <level>Champion 160</level>
+                </rune>
+            </highLevels>
+        </positiveRunes>
+        <negativeRunes>
+            <lowLevels>
+                <rune>
+                    <name>Jode</name>
+                    <traduction>Réduire</traduction>
+                    <level>Niveau 1</level>
+                </rune>
+                <rune>
+                    <name>Notade</name>
+                    <traduction>Soustraire</traduction>
+                    <level>Niveau 5</level>
+                </rune>
+                <rune>
+                    <name>Ode</name>
+                    <traduction>Diminuer</traduction>
+                    <level>Niveau 10</level>
+                </rune>
+                <rune>
+                    <name>Tade</name>
+                    <traduction>Rapetisser</traduction>
+                    <level>Niveau 15</level>
+                </rune>
+                <rune>
+                    <name>Jayde</name>
+                    <traduction>Déduire</traduction>
+                    <level>Niveau 20</level>
+                </rune>
+                <rune>
+                    <name>Edode</name>
+                    <traduction>Abaisser</traduction>
+                    <level>Niveau 25</level>
+                </rune>
+                <rune>
+                    <name>Pojode</name>
+                    <traduction>Raccourcir</traduction>
+                    <level>Niveau 30</level>
+                </rune>
+                <rune>
+                    <name>Rekudé</name>
+                    <traduction>Affaiblir</traduction>
+                    <level>Niveau 35</level>
+                </rune>
+                <rune>
+                    <name>Hade</name>
+                    <traduction>Amoindrir</traduction>
+                    <level>Niveau 40</level>
+                </rune>
+            </lowLevels>
+            <highLevels>
+                <rune>
+                    <name>Idode</name>
+                    <traduction>Entraver</traduction>
+                    <level>Champion 10</level>
+                </rune>
+                <rune>
+                    <name>Pode</name>
+                    <traduction>Retirer</traduction>
+                    <level>Champion 30</level>
+                </rune>
+                <rune>
+                    <name>Kédéko</name>
+                    <traduction>Drainer</traduction>
+                    <level>Champion 50</level>
+                </rune>
+                <rune>
+                    <name>Rede</name>
+                    <traduction>Priver</traduction>
+                    <level>Champion 70</level>
+                </rune>
+                <rune>
+                    <name>Kudé</name>
+                    <traduction>Annuler</traduction>
+                    <level>Champion 100</level>
+                </rune>
+                <rune>
+                    <name>Jehade</name>
+                    <traduction>Retrait</traduction>
+                    <level>Champion 150</level>
+                </rune>
+                <rune>
+                    <name>Itade</name>
+                    <traduction>Pillage</traduction>
+                    <level>Champion 160</level>
+                </rune>
+            </highLevels>
+        </negativeRunes>
+    </potencyRunes>
+    <essenceRunes>
+        <rune>
+            <type>essence</type>
+            <name>Oko</name>
+            <traduction>Santé</traduction>
+        </rune>
+        <rune>
+            <type>essence</type>
+            <name>Makko</name>
+            <traduction>Magie</traduction>
+        </rune>
+        <rune>
+            <type>essence</type>
+            <name>Deni</name>
+            <traduction>Vigueur</traduction>
+        </rune>
+        <rune>
+            <type>essence</type>
+            <name>Okoma</name>
+            <traduction>Régénération de Santé</traduction>
+        </rune>
+        <rune>
+            <type>essence</type>
+            <name>Makkoma</name>
+            <traduction>Régénération de Magie</traduction>
+        </rune>
+        <rune>
+            <type>essence</type>
+            <name>Denima</name>
+            <traduction>Régénération de Vigueur</traduction>
+        </rune>
+        <rune>
+            <type>essence</type>
+            <name>Kuoko</name>
+            <traduction>Poison</traduction>
+        </rune>
+        <rune>
+            <type>essence</type>
+            <name>Rakeïpa</name>
+            <traduction>Feu</traduction>
+        </rune>
+        <rune>
+            <type>essence</type>
+            <name>Dekeïpa</name>
+            <traduction>Glace</traduction>
+        </rune>
+        <rune>
+            <type>essence</type>
+            <name>Méip</name>
+            <traduction>Foudre</traduction>
+        </rune>
+        <rune>
+            <type>essence</type>
+            <name>Haoko</name>
+            <traduction>Maladie</traduction>
+        </rune>
+        <rune>
+            <type>essence</type>
+            <name>Deteri</name>
+            <traduction>Armure</traduction>
+        </rune>
+        <rune>
+            <type>essence</type>
+            <name>Okori</name>
+            <traduction>Pouvoir</traduction>
+        </rune>
+        <rune>
+            <type>essence</type>
+            <name>Oru</name>
+            <traduction>Alchimiste</traduction>
+        </rune>
+        <rune>
+            <type>essence</type>
+            <name>Taderi</name>
+            <traduction>Dégâts physiques</traduction>
+        </rune>
+        <rune>
+            <type>essence</type>
+            <name>Makdéri</name>
+            <traduction>Dégâts magiques</traduction>
+        </rune>
+        <rune>
+            <type>essence</type>
+            <name>Kadéri</name>
+            <traduction>Bouclier</traduction>
+        </rune>
+        <rune>
+            <type>essence</type>
+            <name>Hakeijo</name>
+            <traduction>Prisme</traduction>
+        </rune>
+    </essenceRunes>
+    <aspectRunes>
+        <rune>
+            <type>aspect</type>
+            <name>Ta</name>
+            <traduction>Base</traduction>
+        </rune>
+        <rune>
+            <type>aspect</type>
+            <name>Jéjota</name>
+            <traduction>Raffiné</traduction>
+        </rune>
+        <rune>
+            <type>aspect</type>
+            <name>Denata</name>
+            <traduction>Supérieur</traduction>
+        </rune>
+        <rune>
+            <type>aspect</type>
+            <name>Rekuta</name>
+            <traduction>Artefact</traduction>
+        </rune>
+        <rune>
+            <type>aspect</type>
+            <name>Kuta</name>
+            <traduction>Légendaire</traduction>
+        </rune>
+    </aspectRunes>
+    <levels>
+        <lowLevels>
+            <level>
+                <name>Niveau 1</name>
+            </level>
+            <level>
+                <name>Niveau 5</name>
+            </level>
+            <level>
+                <name>Niveau 10</name>
+            </level>
+            <level>
+                <name>Niveau 15</name>
+            </level>
+            <level>
+                <name>Niveau 20</name>
+            </level>
+            <level>
+                <name>Niveau 25</name>
+            </level>
+            <level>
+                <name>Niveau 30</name>
+            </level>
+            <level>
+                <name>Niveau 35</name>
+            </level>
+            <level>
+                <name>Niveau 40</name>
+            </level>
+        </lowLevels>
+        <highLevels>
+            <level>
+                <name>Champion 10</name>
+            </level>
+            <level>
+                <name>Champion 30</name>
+            </level>
+            <level>
+                <name>Champion 50</name>
+            </level>
+            <level>
+                <name>Champion 70</name>
+            </level>
+            <level>
+                <name>Champion 100</name>
+            </level>
+            <level>
+                <name>Champion 150</name>
+            </level>
+            <level>
+                <name>Champion 160</name>
+            </level>
+        </highLevels>
+    </levels>
 </enchanting>
