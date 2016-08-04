@@ -1,39 +1,41 @@
 <?php
 $css = null;
-$guild = Config::getConfig('app')['guild'];
+$guild = Config::getConfig ( 'app' ) ['guild'];
 $js = null;
 if ($script !== null)
 {
-    require $script;
+	require $script;
 }
 ?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="<?php echo $lang; ?>" lang="<?php echo $lang; ?>">
-    <head>
-        <title><?php echo $guild; ?></title>
-        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-        <meta name="description" content="Gestionnaire de commandes de produits artisanaux" />
-        <meta name="author" content="Alexis" />
-        <link href="css/style.css" rel="stylesheet" type="text/css" />
-        <link href="css/layout.css" rel="stylesheet" type="text/css" /><?php PHPTools::renderCSS($css); ?>
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xml:lang="<?php echo $lang; ?>" lang="<?php echo $lang; ?>">
+<head>
+<title><?php echo $guild; ?></title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="description"
+	content="Gestionnaire de commandes de produits artisanaux" />
+<meta name="author" content="Alexis" />
+<link href="css/style.css" rel="stylesheet" type="text/css" />
+<link href="css/layout.css" rel="stylesheet" type="text/css" /><?php PHPTools::renderCSS($css); ?>
         <script type="text/javascript" src="js/jquery.js"></script>
-        <script type="text/javascript" src="js/plugin.js"></script><?php PHPTools::renderJS($js); ?>
+<script type="text/javascript" src="js/plugin.js"></script><?php PHPTools::renderJS($js); ?>
     </head>
-    <body>
-        <div class="tail-top-right"></div>
-        <div id="main">
-            <!-- header -->
-            <div id="header">
-                <p><?php echo HTMLTools::createElement('a', $attr = array('href' => HTMLTools::buildURL('home')), 'Accueil'); ?></p>
-                <p><?php echo HTMLTools::createElement('a', $attr = array('href' => HTMLTools::buildURL('crafting')), "Accéder au gestionnaire d'artisanat"); ?></p>
-            </div>
-            <!-- content -->
-            <div id="content">
-                <div class="wrapper">
+<body>
+	<div class="tail-top-right"></div>
+	<div id="main">
+		<!-- header -->
+		<div id="header">
+			<p><?php echo HTMLTools::createElement('a', $attr = array('href' => HTMLTools::buildURL('home')), 'Accueil'); ?></p>
+			<p><?php echo HTMLTools::createElement('a', $attr = array('href' => HTMLTools::buildURL('crafting')), "Accéder au gestionnaire d'artisanat"); ?></p>
+		</div>
+		<!-- content -->
+		<div id="content">
+			<div class="wrapper">
                     <?php require $template; ?>
                 </div>
-            </div>
-            <div id="footer"></div>
-        </div>
-    </body>
+		</div>
+		<div id="footer"></div>
+	</div>
+</body>
 </html>

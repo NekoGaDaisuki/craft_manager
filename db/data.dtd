@@ -12,7 +12,7 @@
 
     <?xml version="1.0"?>
 
-    <!DOCTYPE pma_xml_export SYSTEM "ressources_db.dtd">
+    <!DOCTYPE pma_xml_export SYSTEM "data.dtd">
 
     <pma_xml_export>
     ...

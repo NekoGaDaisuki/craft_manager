@@ -9,7 +9,7 @@
 - Version du serveur :  10.1.13-MariaDB
 - Version de PHP :  5.6.21
 -->
-
+<!DOCTYPE pma_xml_export SYSTEM "data.dtd">
 <pma_xml_export version="1.0" xmlns:pma="http://www.phpmyadmin.net/some_doc_url/">
     <!--
     - Structure schemas
